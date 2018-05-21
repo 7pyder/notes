@@ -1,41 +1,18 @@
 {
   "name": "notes",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "vue": "^2.5.16"
-  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.10",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.10",
-    "@vue/cli-service": "^3.0.0-beta.10",
-    "vue-template-compiler": "^2.5.13"
-  },
-  "babel": {
-    "presets": [
-      "@vue/app"
-    ]
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ]
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
 }
